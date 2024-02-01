@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "OAAAZpw6DqR9hv4Ki2JBd5CCwPLgBpT1fZfAiCIUFI0cO87Q2uxfZmNGVmdHQ2s/PCfSMOXl8T38SHdjW15QYQ==",
+  "success": true,
+  "projectFilePath": "/Users/lemonsquirt/Documents/HopkinsXAll41/AllForOne.csproj",
+  "expectedPackageFiles": [
+    "/Users/lemonsquirt/.nuget/packages/microsoft.aspnetcore.openapi/7.0.10/microsoft.aspnetcore.openapi.7.0.10.nupkg.sha512",
+    "/Users/lemonsquirt/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "/Users/lemonsquirt/.nuget/packages/microsoft.openapi/1.4.3/microsoft.openapi.1.4.3.nupkg.sha512",
+    "/Users/lemonsquirt/.nuget/packages/swashbuckle.aspnetcore/6.5.0/swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
+    "/Users/lemonsquirt/.nuget/packages/swashbuckle.aspnetcore.swagger/6.5.0/swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "/Users/lemonsquirt/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.5.0/swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "/Users/lemonsquirt/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.5.0/swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}

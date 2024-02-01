@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../dist/output.css">
+    <title>GreaterThan</title>
+</head>
+<body style="background-image: url(../assets/RetroBD.png);">
+
+    <nav class="bg-black">
+        <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+          <div class="relative flex h-16 items-center justify-between">
+            <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
+              <!-- Mobile menu button-->
+              <button type="button" class="relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white" aria-controls="mobile-menu" aria-expanded="false">
+                <span class="absolute -inset-0.5"></span>
+                <span class="sr-only">Open main menu</span>
+                <!--
+                  Menu open: "hidden", Menu closed: "block"
+                -->
+                <svg class="block h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                </svg>
+                <!--
+                  Icon when menu is open.
+      
+                  Menu open: "block", Menu closed: "hidden"
+                -->
+                <svg class="hidden h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+              </button>
+            </div>
+            <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
+              <div class="flex flex-shrink-0 items-center">
+            
+            </div>
+              <div class="hidden sm:ml-6 sm:block">
+                <div class="flex mx-auto">
+                  <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
+                  <img src="../assets/ShiaGif.gif" alt="ShiaGif" class="w-auto h-12">
+                  <a href="../index.html" class="bg-gray-300 text-white rounded-md px-3 py-2 text-sm font-medium" aria-current="page"  style="color: lightskyblue; font-size: x-large;">Home</a>
+                  <a href="../pages/SayHello.html" class="bg-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium"  style="color: lightskyblue; font-size: x-large;">Say Hello</a>
+                  <a href="../pages/AddingNumbers.html" class="text-gray-900 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium"  style="color: lightskyblue; font-size: x-large;">Adding Numbers</a>
+                  <a href="../pages/AskingQuestions.html" class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium"  style="color: lightskyblue; font-size: x-large;">Asking Questions</a>
+                  <a href="../pages/GreaterThan.html" class="bg-gray-900 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium" style="color: greenyellow; font-size: x-large;">Greater Than</a>
+                  <a href="../pages/MadLib.html" class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium"  style="color: lightskyblue; font-size: x-large;">MadLib</a>
+                  <a href="../pages/OddEven.html" class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium"  style="color: lightskyblue; font-size: x-large;">Odd/Even</a>  
+                  <a href="../pages/ReverseNumber.html" class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium"  style="color: lightskyblue; font-size: x-large;">Reverse Number</a>
+                  <a href="../pages/ReverseString.html" class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium"  style="color: lightskyblue; font-size: x-large;">Reverse String</a>
+                  <a href="../pages/RestaurantPicker.html" class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium"  style="color: lightskyblue; font-size: x-large;">Restaurant Picker</a>
+                  <a href="../pages/MagicEightBall.html" class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium"  style="color: lightskyblue; font-size: x-large;">Magic 8Ball</a>
+                  <img src="../assets/ShiaGif.gif" alt="ShiaGif" class="w-auto h-12">
+                </div>
+              </div>
+            </div>
+
+            </div>
+          </div>
+        </div>
+
+      <!-- EVERYTHING BELOW THIS COMMENT IS HIDDEN -->
+        <!-- Mobile menu, show/hide based on menu state. -->
+        <div class="sm:hidden" id="mobile-menu">
+          <div class="space-y-1 px-2 pb-3 pt-2">
+            <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
+            <a href="#" class="bg-gray-900 text-white block rounded-md px-3 py-2 text-base font-medium" aria-current="page">Dashboard</a>
+            <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Team</a>
+            <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Projects</a>
+            <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Calendar</a>
+          </div>
+        </div>
+      </nav>
+         <!-- EVERYTHING Above THIS COMMENT IS HIDDEN -->
+
+      <img src="../assets/GreaterthanLessthan.png" alt="GreaterThan" class="mx-auto py-9 ">
+      <br><br><br><br><br>
+
+      <input type="text" class="flex mx-auto" placeholder="Enter Number" id="NumOne">
+      <input type="text" class="flex mx-auto" placeholder="Enter Number" id="NumTwo">
+      
+
+      <h1 class="flex justify-center text-white" style="font-size: x-large;"n id="GreaterThanOutput">Please Insert Two Numbers</h1>
+      
+<button class="flex justify-center mx-auto rounded-full " id="SubmitBtn">
+    <img src="../assets/SubmitBtn.png" alt="SubmitButton">
+  </button>   
+  
+  
+    <script src="../scripts/GreaterThan.js"></script>
+</body>
+</html>
